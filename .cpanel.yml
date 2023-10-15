@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codrproject/testrepo/aconnect/
+    - /bin/cp * $DEPLOYPATH
